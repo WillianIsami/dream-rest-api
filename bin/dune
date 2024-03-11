@@ -1,0 +1,4 @@
+(executable
+ (public_name rest_api)
+ (name main)
+ (libraries rest_api dream))

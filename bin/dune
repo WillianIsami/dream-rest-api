@@ -1,7 +1,7 @@
 (executable
  (public_name rest_api)
  (name main)
- (libraries rest_api dream )
+ (libraries rest_api caqti-driver-sqlite3 dream)
  (preprocess (pps lwt_ppx ppx_yojson_conv)))
  
 (rule

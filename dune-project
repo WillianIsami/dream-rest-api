@@ -5,21 +5,21 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github WillianIsami/dream-rest-api))
 
-(authors "Author Name")
+(authors "WillianIsami")
 
-(maintainers "Maintainer Name")
+(maintainers "WillianIsami")
 
 (license LICENSE)
 
-(documentation https://url/to/documentation)
+(documentation https://github.com/WillianIsami/dream-rest-api/blob/main/README.md)
 
 (package
  (name rest_api)
  (synopsis "A short synopsis")
  (description "A longer description")
- (depends ocaml dune)
+ (depends ocaml dune )
  (tags
   (topics "to describe" your project)))
 
